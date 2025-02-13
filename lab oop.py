@@ -1,18 +1,17 @@
 class panda:
-    def__init__(self,name:str,age:int,ginder:str,weigt:float):  
+    def __init__(self, name:str, age:int, ginder:str, weigt:float):  
 
-    self.name=name
-    self.age=age
-    self.ginder=ginder     
-    self.weigt=weigt
+        self.name=name
+        self.age=age
+        self.ginder=ginder     
+        self.weigt=weigt
 #دالة لعب الباندا
     def play(self):
         print("{} is playing".format(self.name))
 # دالة فحص الباندا الطبي
     def  being_examined(self,docName):
-        print("{} is being examined by {}".format(self,docName))
+        print("{} is being examined by {}".format(self.name,docName))
 
-from panda import panda
 
 pandaNum1=panda("pinky",3,"female",50.43)
 pandaNum2=panda("mj",4,"male",60.87)
